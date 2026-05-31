@@ -1,0 +1,29 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>+EV Engine — Performance</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--bd:#30363d;--tx:#e6edf3;--mut:#8b949e;--pos:#3fb950;--neg:#f85149;--acc:#58a6ff;}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.5 -apple-system,Segoe UI,Roboto,sans-serif;padding:32px}
+h1{font-size:22px;margin:0 0 4px}.meta{color:var(--mut);font-size:13px;margin-bottom:24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin-bottom:32px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:16px}
+.card .lbl{color:var(--mut);font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+.card .val{font-size:28px;font-weight:700;margin:6px 0 2px}.card .sub{color:var(--mut);font-size:12px}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.muted,.pend{color:var(--mut)}
+h2{font-size:15px;text-transform:uppercase;letter-spacing:.05em;color:var(--mut);margin:28px 0 10px}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--bd);border-radius:10px;overflow:hidden;font-size:13px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--bd)}th{color:var(--mut);font-weight:600;background:#11161d}
+tr:last-child td{border-bottom:none}
+.badge{padding:2px 8px;border-radius:20px;font-size:11px;font-weight:600;background:#21262d}
+.badge.pos{background:rgba(63,185,80,.15)}.badge.neg{background:rgba(248,81,73,.15)}
+.note{background:rgba(88,166,255,.08);border:1px solid rgba(88,166,255,.3);border-radius:8px;padding:12px 16px;color:var(--mut);font-size:13px;margin-bottom:24px}
+</style></head><body>
+<h1>+EV Engine — Performance Scorecard</h1>
+<div class="meta">Generated 2026-05-31 17:33 UTC · paper-trading ledger · kelly staking (0.25× Kelly)</div>
+<div class="note"><b>Read CLV first.</b> Beating the closing line proves the edge is real long before ROI converges. Target: beat-the-close &gt; 55%.</div>
+<div class="grid"><div class="card"><div class="lbl">Net P&amp;L</div><div class="val"><span class="pos">+0.00u</span></div><div class="sub">0.0u staked</div></div><div class="card"><div class="lbl">ROI</div><div class="val"><span class="pos">+0.00%</span></div><div class="sub">return on turnover</div></div><div class="card"><div class="lbl">Beat the Close</div><div class="val">100.0%</div><div class="sub">4 bets w/ CLV</div></div><div class="card"><div class="lbl">Avg CLV</div><div class="val"><span class="pos">+3.07%</span></div><div class="sub">the leading indicator</div></div><div class="card"><div class="lbl">Hit Rate</div><div class="val">0.0%</div><div class="sub">0W / 0L / 0P</div></div><div class="card"><div class="lbl">Settled</div><div class="val">0</div><div class="sub">4 total flagged</div></div></div>
+<h2>Breakdown by Sport &amp; Market</h2>
+<table><thead><tr><th>Sport</th><th>Market</th><th>W-L-P</th><th>Net</th><th>ROI</th><th>Avg CLV</th></tr></thead><tbody><tr><td colspan="6" class="muted">No settled bets yet.</td></tr></tbody></table>
+<h2>Recent Bets</h2>
+<table><thead><tr><th>Date</th><th>Sport</th><th>Mkt</th><th>Selection</th><th>Book</th><th>Odds</th><th>EV</th><th>Stake</th><th>CLV</th><th>Status</th></tr></thead><tbody><tr><td>2026-05-31</td><td>mlb</td><td>totals</td><td>Over 9.5</td><td>FanDuel</td><td>+100</td><td>3.37%</td><td>0.843u</td><td><span class="pos">+3.38%</span></td><td><span class="badge pend">pending</span></td></tr><tr><td>2026-05-31</td><td>mlb</td><td>spreads</td><td>Tampa Bay Rays -1.5</td><td>FanDuel</td><td>+104</td><td>2.0%</td><td>0.481u</td><td><span class="pos">+2.00%</span></td><td><span class="badge pend">pending</span></td></tr><tr><td>2026-05-31</td><td>mlb</td><td>spreads</td><td>Milwaukee Brewers -1.5</td><td>MyBookie.ag</td><td>-107</td><td>3.19%</td><td>0.852u</td><td><span class="pos">+3.06%</span></td><td><span class="badge pend">pending</span></td></tr><tr><td>2026-05-31</td><td>mlb</td><td>h2h</td><td>Miami Marlins</td><td>FanDuel</td><td>+144</td><td>3.08%</td><td>0.534u</td><td><span class="pos">+3.83%</span></td><td><span class="badge pend">pending</span></td></tr></tbody></table>
+</body></html>
